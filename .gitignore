@@ -33,3 +33,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.DS_Store
+node/
+node_modules/
