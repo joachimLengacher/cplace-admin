@@ -20,9 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>cf.cplace.admin</groupId>
+            <groupId>cf.cplace</groupId>
             <artifactId>cplace-admin-extensions</artifactId>
-            <version>2.5.4</version> <!-- TODO: revision -->
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>

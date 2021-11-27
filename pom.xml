@@ -23,6 +23,7 @@
 
 
     <modules>
+        <module>cplace-admin-extensions</module>
         <module>cplace-admin-server</module>
     </modules>
 
