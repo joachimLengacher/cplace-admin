@@ -10,10 +10,6 @@ management:
 spring:
     boot:
         admin:
-            notify:
-                slack:
-                    enabled: true
-                    webhook-url: https://hooks.slack.com/services/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
             ui:
                 brand: <img src="assets/img/cplace-logo.png"><span>cplace admin</span>
                 cache:
