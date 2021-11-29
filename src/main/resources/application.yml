@@ -15,7 +15,7 @@ spring:
                 cache:
                     no-cache: true
                 cache-templates: false
-                extension-resource-locations: file:/Users/joachimlengacher/projects/cplace-admin/cplace-admin-extensions/target/dist/
+                extension-resource-locations: classpath:/META-INF/spring-boot-admin-server-ui/extensions/custom/
                 favicon: assets/img/fav-icon.png
                 login-icon: assets/img/cplace-logo.png
                 title: cplace admin
