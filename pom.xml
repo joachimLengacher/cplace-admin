@@ -23,7 +23,7 @@
         <dependency>
             <groupId>cf.cplace</groupId>
             <artifactId>cplace-admin-extensions</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
