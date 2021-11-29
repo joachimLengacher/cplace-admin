@@ -1,0 +1,35 @@
+
+logging:
+    file:
+        name: cplace-admin.log
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+spring:
+    boot:
+        admin:
+            notify:
+                slack:
+                    enabled: true
+                    webhook-url: https://hooks.slack.com/services/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
+            ui:
+                brand: <img src="assets/img/cplace-logo.png"><span>cplace admin</span>
+                cache:
+                    no-cache: true
+                cache-templates: false
+                extension-resource-locations: file:/Users/joachimlengacher/projects/cplace-admin/cplace-admin-extensions/target/dist/
+                favicon: assets/img/fav-icon.png
+                login-icon: assets/img/cplace-logo.png
+                title: cplace admin
+                view-settings:
+                    - name: "about"
+                      enabled: false
+    jmx:
+        enabled: true
+    security:
+        user:
+            name: tricia
+            password: topsecret
+
