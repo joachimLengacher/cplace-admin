@@ -2,12 +2,21 @@
 logging:
     file:
         name: cplace-admin.log
-management:
-    endpoints:
-        web:
-            exposure:
-                include: '*'
+
 spring:
+    cloud:
+        discovery:
+            client:
+                simple:
+                    instances:
+                        test:
+                            - uri: http://localhost:8083
+                              metadata:
+                                  management.context-path: /_actuator
+                                  user.name: tricia
+                                  user.password: topsecret
+
+
     boot:
         admin:
             ui:
